@@ -1,0 +1,58 @@
+<h1>ace</h1>
+
+<!DOCTYPE html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<head>
+  <title>AirForce</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://img00.deviantart.net/bd67/i/2006/091/a/a/air_force_logo___silver_by_joeboe610.jpg");
+      background-size: cover;
+      color: white;
+      font-family:;
+    }
+    p {
+      font-size: 42px;
+      font-family: Lucida Grande;
+    }
+    input {
+      border: 100px;
+      padding: 9px;
+      font-size: 20px;
+    }
+    input [type="submit"] {
+      background: grey;
+      color: grey;
+    }
+    
+    img {
+      width: 200px;
+      border-radius: 100px;
+      
+      body {
+        text-align: center;
+        
+    }
+    input [type=submit"] {
+      background: grey;
+      color: grey;
+    }
+    
+  </style>
+</head>
+<body>
+  <img src="http://e9d44f56cc6e9f675d09-3df7d823593f18aeceff8c2eebacaa4f.r27.cf1.rackcdn.com/static/fb/fb_icon_1024.jpg">
+  <p>"Join the Airforce"</p>
+  <input type="email" placeholder="Your email" id="eagle">
+  <input type="submit" onClick="alert(eagle.value)">
+</body>
+
+<body>
+ <p>"Date of Birth"</p>
+ <input type="DOB" placeholder="Your DOB" id="Thanks!">
+ <input type="submit" onClick="alert(Thanks!.value)">
